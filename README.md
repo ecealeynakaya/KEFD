@@ -1,8 +1,11 @@
+
 # Team Members
 | Name  | Email Adresse     |
 |-------|------------------|
+| Ece Kaya  | ece.kaya@students.fhnw.ch  |
+| Furkan Aydin  | furkan.aydin@students.fhnw.ch  |
+| Dominic Däster  | dominic.däster@students.fhnw.ch  |
 | Keethan Nathan  | keethan.nathan@students.fhnw.ch  |
-
 
 # KEFD
 A process management system for employee recruitment – from job posting to onboarding.
