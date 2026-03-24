@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bpmn:definitions xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:modeler="http://camunda.org/schema/modeler/1.0" id="Definitions_173hmp3" targetNamespace="http://bpmn.io/schema/bpmn" exporter="Camunda Modeler" exporterVersion="5.40.0" modeler:executionPlatform="Camunda Platform" modeler:executionPlatformVersion="7.24.0">
+  <bpmn:collaboration id="Collaboration_0d0b8zz">
+    <bpmn:participant id="Participant_0h7m62a" name="Employee Recruitment (AS-IS)" processRef="Process_0ivh6nc" />
+  </bpmn:collaboration>
+  <bpmn:process id="Process_0ivh6nc" isExecutable="true">
+    <bpmn:laneSet id="LaneSet_1aoxfwo">
+      <bpmn:lane id="Lane_13e7glk" name="HR Manager">
+        <bpmn:flowNodeRef>StartEvent_1</bpmn:flowNodeRef>
+      </bpmn:lane>
+      <bpmn:lane id="Lane_1g3yl2w" name="HR Recruiter" />
+      <bpmn:lane id="Lane_00yal7o" name="Hiring Manager" />
+    </bpmn:laneSet>
+    <bpmn:startEvent id="StartEvent_1" />
+  </bpmn:process>
+  <bpmndi:BPMNDiagram id="BPMNDiagram_1">
+    <bpmndi:BPMNPlane id="BPMNPlane_1" bpmnElement="Collaboration_0d0b8zz">
+      <bpmndi:BPMNShape id="Participant_0h7m62a_di" bpmnElement="Participant_0h7m62a" isHorizontal="true">
+        <dc:Bounds x="132" y="82" width="600" height="370" />
+        <bpmndi:BPMNLabel />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Lane_13e7glk_di" bpmnElement="Lane_13e7glk" isHorizontal="true">
+        <dc:Bounds x="162" y="82" width="570" height="125" />
+        <bpmndi:BPMNLabel />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Lane_1g3yl2w_di" bpmnElement="Lane_1g3yl2w" isHorizontal="true">
+        <dc:Bounds x="162" y="207" width="570" height="125" />
+        <bpmndi:BPMNLabel />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Lane_00yal7o_di" bpmnElement="Lane_00yal7o" isHorizontal="true">
+        <dc:Bounds x="162" y="332" width="570" height="120" />
+        <bpmndi:BPMNLabel />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="StartEvent_1_di" bpmnElement="StartEvent_1">
+        <dc:Bounds x="222" y="127" width="36" height="36" />
+      </bpmndi:BPMNShape>
+    </bpmndi:BPMNPlane>
+  </bpmndi:BPMNDiagram>
+</bpmn:definitions>
