@@ -3,7 +3,7 @@ A process management system for employee recruitment – from job posting to onb
 
 # Employee Recruitment Management System
 
-> Developed by **Dominic, Furkan, Keethan & Ece** — University Project 2026
+> Developed by **Dominic, Furkan, Keethan & Ece** FHNW Projekt 2026
 
 ## About
 This project models and implements the **employee recruitment process** 
