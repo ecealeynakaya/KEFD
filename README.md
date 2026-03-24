@@ -1,3 +1,9 @@
+# Team Members
+| Name  | Email Adresse     |
+|-------|------------------|
+| Keethan Nathan  | keethan.nathan@students.fhnw.ch  |
+
+
 # KEFD
 A process management system for employee recruitment – from job posting to onboarding.
 
