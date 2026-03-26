@@ -4,7 +4,7 @@
 |-------|------------------|
 | Ece Kaya  | ece.kaya@students.fhnw.ch  |
 | Furkan Aydin  | furkan.aydin@students.fhnw.ch  |
-| Dominic Däster  | dominic.däster@students.fhnw.ch  |
+| Dominic Däster  | dominic.daester@students.fhnw.ch  |
 | Keethan Nathan  | keethan.nathan@students.fhnw.ch  |
 
 # KEFD
