@@ -15,19 +15,19 @@ A process management system for employee recruitment – from job posting to onb
 > Developed by **Dominic, Ece, Furkan & Keethan** FHNW Projekt 2026
 
 ## About
-This project models and implements the **employee recruitment process** 
-of a company – one of the most strategic workflows in any organization.
+The recruitment process begins when a new position is requested within the organization. The HR Manager first defines the position, specifying requirements and responsibilities, and then advertises the position in a web portal to attract potential candidates.
 
-## AS-IS Process
-First, the process starts with the HR Manager defining the position that needs to be filled. Once the role is clearly specified, the HR Manager advertises the position on a web portal to attract potential candidates. Applications are then collected through the same portal.
+Once an applicant submits their application, the HR Manager receives the application and gathers it in the web portal. The HR Recruiter then reviews the submitted CV and evaluates whether the application is suitable.
 
-Next, the HR Recruiter reviews the submitted applications by considering the CVs. At this point, a decision is made whether an application is suitable. If the application is not suitable, a cancellation notice is sent to the candidate, and the process ends with the application being denied.
+If the application is deemed unsuitable, the HR Recruiter sends a cancellation notice to the applicant, and the process ends with a denied application.
 
-If the application is considered suitable, the process continues with the Hiring Manager. The candidate is invited to an interview, followed by conducting the first interview. After the interview, the Hiring Manager evaluates the candidate’s performance and qualifications.
+If the application is suitable, the Hiring Manager invites the candidate to a first interview, which is subsequently conducted and evaluated. Based on this evaluation, the Hiring Manager decides whether to invite the candidate to an assessment.
 
-A second decision is then made whether to hire the candidate. If the candidate is not selected, a cancellation is sent, and the process ends. If the candidate is deemed suitable for hiring, the process proceeds with a second interview with the HR Manager.
+If the candidate is not invited to the assessment, a cancellation is sent and the process ends. Otherwise, the Hiring Manager invites the candidate to an assessment, which is then conducted and evaluated in detail.
 
-After successfully completing the second interview, a contract is created for the candidate. Finally, the new employee is onboarded, marking the successful completion of the recruitment process.
+Following the assessment, the Hiring Manager decides whether to hire the candidate. If the decision is negative, a cancellation notice is sent to the applicant. If the decision is positive, the HR Manager creates an employment contract and sends it to the applicant.
+
+Once the signed contract is received back from the applicant, the HR Manager proceeds to onboard the new employee, concluding the process with the employee being successfully onboarded into the organization.
 
 ## Key Features
 - Supports **structured** and **unstructured** recruitment activities
